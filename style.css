@@ -279,7 +279,8 @@ p {
 
 #hero {
   background-image: url(homebanner.jpg);
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: top center;
   position: relative;
   z-index: 1;
@@ -293,7 +294,7 @@ p {
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: 0.7;
+  opacity: 0.5;
   z-index: -1;
 }
 
